@@ -32,7 +32,7 @@ APELSERG.CANVA.Rewrite = function () {
     ctx.strokeText(dateCurrentStr, 20, 30);
 
     // ссылки
-    for (var n = 0 in APELSERG.MODEL.DATA.Links) {
+    for (var n in APELSERG.MODEL.DATA.Links) {
 
         var link = APELSERG.MODEL.DATA.Links[n];
 
@@ -52,7 +52,7 @@ APELSERG.CANVA.Rewrite = function () {
     }
 
     // звёзды (поверх контента)
-    for (var n = 0 in APELSERG.MODEL.DATA.Stars) {
+    for (var n in APELSERG.MODEL.DATA.Stars) {
 
         var star = APELSERG.MODEL.DATA.Stars[n];
 
@@ -69,7 +69,7 @@ APELSERG.CANVA.Rewrite = function () {
     }
 
     // снег (поверх контента)
-    for (var n = 0 in APELSERG.MODEL.DATA.Snows) {
+    for (var n in APELSERG.MODEL.DATA.Snows) {
 
         var snow = APELSERG.MODEL.DATA.Snows[n];
 
